@@ -346,41 +346,6 @@ a.btn--pdf {
   background-color: var(--color-grey-medium);
  }
 
-/* .about__details {
-  max-width: 120rem;
-  width: 90%;
-  margin: 0 auto;
-  padding: 2rem 3rem 5rem;
-}
-
-.about__details ul li {
-  padding: 1rem 0;
-  border-bottom: 0.1rem solid var(--color-grey-light);
-}
-
-.about__details li a {
-  color: var(--color-main-accent);
-}
-
-.about__details li a:hover {
-  color: var(--color-main-dark);
-}
-
-a.btn--pdf {
-  display: inline-block;
-  margin-top: 2rem;
-  padding: 1rem 1.5rem;
-  background-color: var(--color-main-accent);
-  color: var(--color-grey-lighter);
-  font-weight: var(--font-regular);
-  border-radius: 0.5rem;
-  transition: 0.3s;
- }
-
- a.btn--pdf:hover {
-  background-color: var(--color-grey-medium);
- } */
-
 /*
 *	Section Skills
 * ============================================= */
