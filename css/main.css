@@ -262,16 +262,6 @@ ul li {
   margin-bottom: 1rem;
 }
 
-@media only screen and (max-width: 768px) {
-  header nav {
-    display: none;
-  }
-
-  #hamburger-icon {
-    display: block;
-  }
-}
-
 /*
 *	Section About
 * ============================================= */
@@ -502,6 +492,34 @@ footer i {
   font-size: var(--font-size-md);
   color: var(--color-main-accent);
   vertical-align: sub;
+}
+
+/*
+*	Media Queries
+* ============================================ */
+@media only screen and (max-width: 768px) {
+  header nav {
+    display: none;
+  }
+
+  #hamburger-icon {
+    display: block;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  
+  .about__text,
+  .about__details,
+  .skills__card,
+  .resume__card {
+    width: 55rem;
+  }
 }
 
 /*
